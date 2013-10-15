@@ -1,0 +1,38 @@
+This is METAFONT, Version 2.718281 (TeX Live 2013) (base=mf 2013.10.10)  12 OCT 2013 16:43
+**\relax
+
+*Phi=(1+sqrt5)/2;
+
+*w=100;
+
+*h=Phi*w;
+
+*y1=y5=0;
+
+*y3=h;
+
+*x1=0;
+
+*x5=w;
+
+*x3=w/2;
+
+*y2=y4;
+
+*z2=whatever[z1,z3];
+
+*z4=whatever[z3,z5];
+
+*(y3-y2)=Phi*(y2-y1);
+
+*draw z1..z3;
+
+*draw z3..z5;
+
+*draw z2..z4;
+
+*labels(range 1 thru 5);
+
+*showit; shipit; end
+[0]
+Output written on mfput.2602gf (1 character, 844 bytes).
