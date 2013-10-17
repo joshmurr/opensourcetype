@@ -1,0 +1,14 @@
+Phi=(1+sqrt5)/2;
+w=100;
+h=Phi*w;
+
+z0=(0,h);
+z4=(w,h);
+z2=(w/2,0);
+x1=0;
+x3=w;
+y0-y1=Phi*(y1-y2);
+y1=y3;
+draw z1{down}..z2{right}..z3{up}..{up}z4;
+draw z0..z4;
+shipit; end

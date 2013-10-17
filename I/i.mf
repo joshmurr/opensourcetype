@@ -1,0 +1,7 @@
+Phi=(1+sqrt5)/2;
+w=100;
+h=Phi*w;
+z0=(w/2,0);
+z1=(w/2,h);
+draw z0..z1;
+shipit; end

@@ -1,0 +1,16 @@
+Phi=(1+sqrt5)/2;
+w=100;
+h=Phi*w;
+
+x3=0;
+x1=x5=w;
+(y4-y3)=Phi*(y3-y2);
+z1=(w,y3/2Phi);
+z2=(w/Phi,0);
+z5=z1 reflectedabout((0,h/2),(w,h/2));
+z4=z2 reflectedabout((0,h/2),(w,h/2));
+pickup pencircle scaled 15 xscaled Phi rotated angle (Phi,1);
+
+draw z1..z2{left}..z3{up}..z4{right}..z5;
+labels(range 1 thru 5);
+shipit; end
