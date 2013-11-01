@@ -1,7 +1,0 @@
-z0=(0,0);
-z1=(100,100);
-z2=(100,200);
-z3=(200,0);
-pickup pencircle xscaled30 yscaled10 rotated 120;
-draw z0..z1..z2..z1..z3;
-shipit; end
