@@ -1,0 +1,15 @@
+This is TeX, Version 3.1415926 (TeX Live 2013) (format=tex 2013.10.10)  3 NOV 2013 12:33
+**testfont
+(/usr/local/texlive/2013/texmf-dist/tex/plain/base/testfont.tex
+\m=\count26
+\n=\count27
+\p=\count28
+\dim=\dimen16
+\skewtrial=\count29
+
+
+Name of the font to test = veronepone
+Now type a test command (\help for help):)
+*\table \names \end
+[1]
+Output written on testfont.dvi (1 page, 3660 bytes).
